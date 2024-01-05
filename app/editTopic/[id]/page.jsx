@@ -5,7 +5,7 @@ import EditTopicFrom from "@/components/EditTopicFrom";
 
 const getTopicById = async (id) =>{
   try {
-    const res = await fetch(`http://localhost:3000/api/topics/${id}`, {
+    const res = await fetch(`https://crud-pink-six.vercel.app/api/topics/${id}`, {
       cache: "no-store",
     });
 

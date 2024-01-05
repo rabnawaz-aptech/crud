@@ -16,7 +16,7 @@ console.log(title);
     e.preventDefault();
 
     try {
-      const res = await fetch(`http://localhost:3000/api/topics/${id}`, {
+      const res = await fetch(`https://crud-pink-six.vercel.app/api/topics/${id}`, {
         method: "PUT",
         headers: {
           "Content-type": "application/json",
